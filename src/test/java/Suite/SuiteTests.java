@@ -12,6 +12,7 @@ import UnitTests.Login;
 import UnitTests.PontuacaoDestinosTest;
 import UnitTests.RegistoUser;
 import UnitTests.TitleTest;
+import UnitTests.criaBagagemTest;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -24,7 +25,7 @@ import org.junit.runners.Suite;
  * @author Armando
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({TitleTest.class, RegistoUser.class, Login.class, CompraBilhetesTest.class, PontuacaoDestinosTest.class})
+@Suite.SuiteClasses({TitleTest.class, RegistoUser.class, Login.class, CompraBilhetesTest.class, PontuacaoDestinosTest.class, criaBagagemTest.class})
 public class SuiteTests {
 
     @BeforeClass
