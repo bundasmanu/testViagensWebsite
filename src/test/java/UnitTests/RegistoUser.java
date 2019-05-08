@@ -69,6 +69,7 @@ public class RegistoUser {
         Thread.sleep(1000);
         w.findElement(By.id("formRegisto:txtNovoPass")).sendKeys(this.rp.getConfPass());
         Thread.sleep(1000);
+        String s=w.getPageSource();
     }
     
     @Test

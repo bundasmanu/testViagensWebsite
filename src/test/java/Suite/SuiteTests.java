@@ -34,7 +34,6 @@ public class SuiteTests {
 
     @AfterClass
     public static void tearDownClass() throws Exception {
-        Thread.sleep(2500);
         instDrivers.close();
     }
 
