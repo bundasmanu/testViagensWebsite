@@ -82,7 +82,7 @@ public class RegistoUser {
         String xx=web.getCurrentUrl();
         if (web.getCurrentUrl().equals("http://192.168.56.175:8080/TP-warWebSite/faces/index.xhtml") == true && this.output == true) {
             assertTrue("Acertou", true);
-        } else if (web.getCurrentUrl().equals("http://192.168.56.175:8080/TP-warWebSite/faces/vistas/Registo/registo.xhtml") == true && this.output == false) {
+        } else if (web.getCurrentUrl().equals("http://192.168.56.175:8080/TP-warWebSite/faces/erro.xhtml") == true && this.output == false) {
             assertTrue("Nao entrou, mas esta bem", true);
         } else {
             assertFalse("Problema", true);
