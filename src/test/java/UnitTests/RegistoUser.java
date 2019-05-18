@@ -70,7 +70,6 @@ public class RegistoUser {
         Thread.sleep(1000);
         w.findElement(By.id("formRegisto:txtNovoPass")).sendKeys(this.rp.getConfPass());
         Thread.sleep(1000);
-        String s=w.getPageSource();
     }
     
     @Test
@@ -79,7 +78,7 @@ public class RegistoUser {
         instDrivers.setUrl("http://192.168.56.175:8080/TP-warWebSite/faces/faces/vistas/Registo/registo.xhtml");
         registaForm(web);
         web.findElement(By.id("formRegisto:btnConfirmar")).click();/*BOTAO É DO TIPO SUBMIT*/
-        String xx=web.getCurrentUrl();
+
         if (web.getCurrentUrl().equals("http://192.168.56.175:8080/TP-warWebSite/faces/index.xhtml") == true && this.output == true) {
             assertTrue("Acertou", true);
         } else if (web.getCurrentUrl().equals("http://192.168.56.175:8080/TP-warWebSite/faces/erro.xhtml") == true && this.output == false) {
