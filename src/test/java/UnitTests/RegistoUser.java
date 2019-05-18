@@ -61,6 +61,7 @@ public class RegistoUser {
     }
     
     public void registaForm(WebDriver w) throws InterruptedException{
+        Thread.sleep(1000);
         w.findElement(By.id("formRegisto:txtEmail")).sendKeys(this.rp.getEmail());
         Thread.sleep(1000);
         w.findElement(By.id("formRegisto:txtNome")).sendKeys(this.rp.getNome());

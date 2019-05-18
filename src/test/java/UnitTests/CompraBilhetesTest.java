@@ -66,6 +66,7 @@ public class CompraBilhetesTest {
     
     public void registaForm(WebDriver x) throws InterruptedException {
         /*MEDIANTE O NUMERO DE RADIO BUTTONS, ESCOLHE RANDOM UMA VIAGEM*/
+        Thread.sleep(1000);
         List<WebElement> options = x.findElements(By.xpath("//*[contains(@id, 'j_idt72:rate:')]"));
         Random random = new Random();
         int indice = random.nextInt(options.size());
