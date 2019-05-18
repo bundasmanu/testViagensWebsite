@@ -55,7 +55,7 @@ public class RegistoUser {
     @Parameterized.Parameters
     public static Collection insercaoDadosParametrizaveis() {
         return Arrays.asList(new Object[][]{
-            {"vit@gmail.com", "vitor", "1234", "123", false},
+            {"vitor@gmail.com", "vitor", "1234", "1234", false},
             {"cannavaro1@gmail.com", "fabio", "12" , "12" , true}
         });
     }
