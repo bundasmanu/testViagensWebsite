@@ -76,7 +76,7 @@ public class PontuacaoDestinosTest {
         try {
 
             /*OBTENCAO INSTANCIA DA WEBDRIVER*/
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             WebDriver w = instDrivers.getInstanceDriver();
             
             /*OBTENCAO DAS PONTUACOES*/

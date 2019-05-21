@@ -56,12 +56,12 @@ public class RegistoUser {
     public static Collection insercaoDadosParametrizaveis() {
         return Arrays.asList(new Object[][]{
             {"vitor@gmail.com", "vitor", "1234", "1234", false},
-            {"cannavaro1@gmail.com", "fabio", "12" , "12" , true}
+            {"cannavaro41@gmail.com", "fabio", "12" , "12" , true}
         });
     }
     
     public void registaForm(WebDriver w) throws InterruptedException{
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         w.findElement(By.id("formRegisto:txtEmail")).sendKeys(this.rp.getEmail());
         Thread.sleep(1000);
         w.findElement(By.id("formRegisto:txtNome")).sendKeys(this.rp.getNome());

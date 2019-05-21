@@ -61,7 +61,7 @@ public class Login {
     }
     
     public void registaForm(WebDriver w) throws InterruptedException{
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         w.findElement(By.id("form:email")).sendKeys(this.lp.getEmail());/*CAIXA DE TEXTO COM O USERNAME DO UTILIZADOR*/
         Thread.sleep(1000);
         w.findElement(By.id("form:password")).sendKeys(this.lp.getPass());/*CAIXA DE TEXTO COM A PASS DO UTILIZADOR*/

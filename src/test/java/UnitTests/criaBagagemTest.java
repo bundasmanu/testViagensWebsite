@@ -116,7 +116,7 @@ public class criaBagagemTest {
         try{
             
             /*COLOCAR NA CAIXA DE TEXTO, O VALOR DO PESO*/
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             WebElement caixaTexto= w.findElement(By.id("j_idt73:pesoBagagens"));
             caixaTexto.clear();/*LIMPAR O SEU CONTEUDO*/
             /*ENVIO DO PESO DEFINIDO NOS TESTES PARAMETRIZAVEIS*/
